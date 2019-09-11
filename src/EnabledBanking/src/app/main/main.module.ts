@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { MainPage } from './main.page';
 import { AccountSummaryComponentModule } from '../account-summary/account-summary.module';
-
+import { VoiceControlBtnComponentModule } from '../voice-control-btn/voice-control-btn.module';
 const routes: Routes = [
   {
     path: '',
