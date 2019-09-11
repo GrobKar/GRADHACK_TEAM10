@@ -1,3 +1,12 @@
-<p>
-  form-list-item works!
-</p>
+<a onclick="console.log('foo')">
+<ion-card>
+  <img src="{{formData.img}}" />
+  <ion-card-header>
+    <ion-card-subtitle color="primary">{{formData.cat}}</ion-card-subtitle>
+    <ion-card-title>{{formData.name}}</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    {{formData.desc}}
+  </ion-card-content>
+</ion-card>
+</a>

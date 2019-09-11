@@ -5,9 +5,7 @@
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    <div *ngFor="let form of forms">
-      <app-form-list-item [formData]="form"></app-form-list-item>
-    </div>
+  <div *ngFor="let form of forms">
+    <app-form-list-item [formData]="form"></app-form-list-item>
   </div>
 </ion-content>

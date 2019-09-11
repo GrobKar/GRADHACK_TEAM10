@@ -184,3 +184,10 @@ h1.normal, h2.normal, h3.normal, h4.normal, h5.normal, h6.normal {
 h1.light, h2.light, h3.light, h4.light, h5.light, h6.light {
   font-weight: 300;
 }
+
+ion-card {
+  border-radius: 0px !important;
+  ion-card-title, ion-card-subtitle {
+    font-weight: 600 !important;
+  }
+}
