@@ -7,8 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccountSummaryComponent implements OnInit {
 
+  accountNumber = "12345678";
+  sortCode = "12-34-56";
+  balance = 639.21;
+
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() {
+  }
 
 }

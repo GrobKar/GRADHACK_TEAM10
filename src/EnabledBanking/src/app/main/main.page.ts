@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPage implements OnInit {
 
+  user = {
+    name: "John Smith"
+  }
+
   constructor() { }
 
   ngOnInit() {

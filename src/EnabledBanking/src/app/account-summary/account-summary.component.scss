@@ -1,0 +1,37 @@
+.info {
+
+  border: 2px var(--ion-color-secondary) solid;
+
+  .info-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    h3 {
+      margin: 0px;
+      font-size: 24px
+    }
+  }
+
+  .balance {
+    h1 {
+      text-align: center;
+      margin: 8px;
+      font-size: 48px;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    margin: 8px -16px -16px -16px;
+
+    ion-button {
+      margin: 8px 0px 0px 0px;
+      font-size: 18px;
+      width: 50%;
+    }
+  }
+
+}

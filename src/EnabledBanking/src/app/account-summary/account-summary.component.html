@@ -1,3 +1,17 @@
-<p>
-  account-summary works!
-</p>
+<ion-content>
+  <div class="ion-padding">
+    <div class="info ion-padding">
+      <div class="info-row">
+        <h3 class="light">{{accountNumber}}</h3>
+        <h3 class="light">{{sortCode}}</h3>
+      </div>
+      <div class="balance">
+        <h1 class="normal">{{balance | currency: 'GBP'}}</h1>
+      </div>
+      <div class="buttons">
+        <ion-button expand="full" color="danger">View Account</ion-button>
+        <ion-button expand="full" color="success">Make a Payment</ion-button>
+      </div>
+    </div>
+  </div>
+</ion-content>
