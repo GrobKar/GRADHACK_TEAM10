@@ -7,6 +7,8 @@ import { IonicModule } from '@ionic/angular';
 
 import { FormListPage } from './form-list.page';
 
+import { FormListItemComponentModule } from '../form-list-item/form-list-item.module';
+
 const routes: Routes = [
   {
     path: '',
@@ -19,6 +21,7 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
+    FormListItemComponentModule,
     RouterModule.forChild(routes)
   ],
   declarations: [FormListPage]
