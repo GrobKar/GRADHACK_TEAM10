@@ -25,3 +25,8 @@ Font Weights:
 * 500 (semibold)
 * 600 (bold)
 * 700 (black)
+
+### Buttons:
+* Uses font size 22px
+* Default button size has been overridden with large button size
+* Large button size does not change anything
