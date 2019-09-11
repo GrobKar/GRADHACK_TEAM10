@@ -5,5 +5,30 @@
 </ion-header>
 
 <ion-content>
-  <app-account-summary></app-account-summary>
+  <div class="ion-padding">
+    <app-account-summary></app-account-summary>
+    <div class="service">
+      <span>Easy access to our services with...</span>
+      <ion-button color="primary" expand="block">Form Wizard</ion-button>
+    </div>
+
+    <div class="service">
+      <span>Tell us what you need with...</span>
+      <ion-button color="danger" expand="block">ToBY</ion-button>
+    </div>
+
+    <div class="service">
+      <span>Manage your budget with...</span>
+      <ion-button color="success" expand="block">myBudget</ion-button>
+    </div>
+
+    <div class="service">
+      <span>Or speak with one of our team...</span>
+      <ion-button color="warning" expand="block">Support</ion-button>
+    </div>
+
+    <div class="voice-button">
+      <app-voice-control-btn [properties]="['danger', false]"></app-voice-control-btn>
+    </div>
+  </div>
 </ion-content>

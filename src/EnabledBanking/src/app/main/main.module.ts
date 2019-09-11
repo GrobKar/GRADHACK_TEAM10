@@ -21,6 +21,7 @@ const routes: Routes = [
     FormsModule,
     IonicModule,
     AccountSummaryComponentModule,
+    VoiceControlBtnComponentModule,
     RouterModule.forChild(routes)
   ],
   declarations: [MainPage]
