@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-form-list',
@@ -52,7 +53,7 @@ export class FormListPage implements OnInit {
     }
   ]
 
-  constructor() { }
+  constructor(public location:Location) { }
 
   ngOnInit() {
   }
