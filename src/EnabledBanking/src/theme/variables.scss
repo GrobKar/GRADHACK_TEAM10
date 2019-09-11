@@ -109,15 +109,15 @@
 
   --ion-color-success: #06D6A0;
   --ion-color-success-rgb: 6,214,160;
-  --ion-color-success-contrast: #000000;
-  --ion-color-success-contrast-rgb: 0,0,0;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255,255,255;
   --ion-color-success-shade: #05bc8d;
   --ion-color-success-tint: #1fdaaa;
 
   --ion-color-warning: #FFD166;
   --ion-color-warning-rgb: 255,209,102;
-  --ion-color-warning-contrast: #000000;
-  --ion-color-warning-contrast-rgb: 0,0,0;
+  --ion-color-warning-contrast: #ffffff;
+  --ion-color-warning-contrast-rgb: 255,255,255;
   --ion-color-warning-shade: #e0b85a;
   --ion-color-warning-tint: #ffd675;
 
@@ -158,6 +158,10 @@
 
 }
 
+* {
+  letter-spacing: 0.5px;
+}
+
 ion-toolbar {
   padding-top: 20px !important;
 }
@@ -165,4 +169,10 @@ ion-toolbar {
 ion-title {
   font-weight: 300;
   font-size: 23px;
+}
+
+ion-button {
+  --border-radius: 4px;
+  font-weight: 400;
+  font-size: 22px;
 }
