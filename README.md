@@ -30,3 +30,11 @@ Font Weights:
 * Uses font size 22px
 * Default button size has been overridden with large button size
 * Large button size does not change anything
+
+### Headers:
+#### Additional Classes:
+* "light": Provides a header with font-weight: 300
+* "normal": Provides a header with font-weight: 400
+
+### CSS:
+#### Additional Classes:
