@@ -11,3 +11,17 @@
 * Dark: #222428. Dark shade used for black text.
 * Medium: #CCCCC. Mid shade. Contrasted with Dark.
 * Light: #f4f5f8. Light shade. Contrasted with #000
+
+### Fonts:
+Main font for the Project is Segoe UI.
+Font Styles:
+* normal
+* italic
+
+Font Weights:
+* 200 (light)
+* 300 (semilight)
+* 400 (regular)
+* 500 (semibold)
+* 600 (bold)
+* 700 (black)

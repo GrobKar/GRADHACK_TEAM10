@@ -1,4 +1,4 @@
-/** Fonts **/
+/** Font Imports **/
 @font-face {
   font-family: 'Segoe UI';
   src: url('../assets/fonts/segoeuil.ttf');
@@ -85,6 +85,7 @@
 
 /** Ionic CSS Variables **/
 :root {
+  /** Colors **/
   --ion-color-primary: #118AB2;
   --ion-color-primary-rgb: 17,138,178;
   --ion-color-primary-contrast: #ffffff;
@@ -148,6 +149,11 @@
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 
+  /** Fonts **/
   --ion-font-family: 'Segoe UI';
+  --ion-default-font: var(--ion-font-family);
+
+  /** Spacing **/
+  --ion-statusbar-padding: 20px;
 
 }
