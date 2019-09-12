@@ -7,6 +7,8 @@ import { IonicModule } from '@ionic/angular';
 
 import { FormPage } from './form.page';
 
+import { HandwritingComponentModule } from '../handwriting/handwriting.module';
+
 const routes: Routes = [
   {
     path: '',
@@ -19,6 +21,7 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
+    HandwritingComponentModule,
     RouterModule.forChild(routes)
   ],
   declarations: [FormPage]
