@@ -9,7 +9,7 @@ export class VoiceControlBtnComponent implements OnInit {
 
     color = null;
     fill = null;
-    @Input() properties:Array = ["primary", true];
+    @Input() properties:Array<any> = ["primary", true];
 
   constructor() { }
 
